@@ -55,6 +55,10 @@ section{
     border: 1px dashed black ;
 }
 
+.p-1rem{
+    padding: .25rem;
+}
+
 /* #region bg color */
 .bg-orange{
     background-color: lightsalmon;
@@ -114,10 +118,6 @@ section{
     width: 20%;
 }
 /* #endregion size */
-
-.p-1rem{
-    padding: .25rem;
-}
 
 /* #endregion utilities */
 
