@@ -10,6 +10,10 @@ header{
     padding: .5rem 0;
     font-size: .75rem;
 }
+
+footer{
+    font-size: .75rem;
+}
 /* #endregion common */
 
 /* #region utilities */
@@ -95,6 +99,10 @@ section{
     width: 60%;
 }
 
+.w-70{
+    width: 70%;
+}
+
 .w-40{
     width:40%;
 }
@@ -116,7 +124,17 @@ nav a{
 /* #endregion header */
 
 /* #region footer */
-footer section{
-    border-bottom: 1px solid white;
+footer{
+    section{
+        border-bottom: 1px solid white;
+    }
+
+    #last-section{
+        padding-bottom: 0;
+    }
 }
+/* #endregion footer */
+
+
+
 
