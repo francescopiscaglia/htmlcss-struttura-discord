@@ -41,6 +41,26 @@ section{
     background-color: fuchsia;
 }
 
+.bg-lblue{
+    background-color: lightskyblue;
+}
+
+.bg-salmon{
+    background-color: salmon;
+}
+
+.h-100{
+    height: 100%;
+}
+
+.w-60{
+    width: 60%;
+}
+
+.w-40{
+    width:40%;
+}
+
 .p-1rem{
     padding: .25rem;
 }
@@ -55,9 +75,6 @@ nav a{
 /* #endregion header */
 
 /* #region main */
-.section1-item{
-    width: 60%;
-    height: 100%;
-}
+
 
 /* #endregion main */
