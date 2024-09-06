@@ -29,6 +29,10 @@ section{
     justify-content: space-between;
 }
 
+.fd-rw{
+    flex-direction: row-reverse;
+}
+
 .bg-orange{
     background-color: lightsalmon;
 }
@@ -47,6 +51,10 @@ section{
 
 .bg-salmon{
     background-color: salmon;
+}
+
+.bg-gray{
+    background-color: lightgrey;
 }
 
 .h-100{
