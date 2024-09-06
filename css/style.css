@@ -1,5 +1,40 @@
+/* #region common */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+header{
+    background-color: lightblue;
+    padding: .5rem;
+    font-size: .75rem;
+}
+
+nav a{
+    text-decoration: none;
+    padding: .25rem;
+}
+/* #endregion common */
+
+/* #region utilities */
+.container{
+    width: 80%;
+    margin: auto;
+    border: 1px dashed;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bg-orange{
+    background-color: lightsalmon;
+}
+
+.p-1rem{
+    padding: .25rem;
+}
+
+/* #endregion utilities */
