@@ -13,6 +13,9 @@ header{
 /* #endregion common */
 
 /* #region utilities */
+.debug section{
+    height: 250px;
+}
 .container{
     width: 80%;
     margin: auto;
@@ -21,7 +24,6 @@ header{
 
 section{
     padding: 1rem;
-    height: 250px;
 }
 
 .d-flex{
