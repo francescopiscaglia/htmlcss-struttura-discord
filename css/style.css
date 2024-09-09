@@ -14,11 +14,14 @@ header{
 footer{
     font-size: .75rem;
 }
+
+section{
+    padding: 1rem 0rem;
+}
 /* #endregion common */
 
 /* #region utilities */
-.debug {
-
+#debug {
     section{
         height: 250px;
     }
@@ -30,16 +33,20 @@ footer{
     section.h-300{
         height: 300px;
     }
-    
+
+    #last-section{
+        height: 100%;
+    }
+
+    .h-100{
+        height: 100%;
+    }
 }
+
 .container{
     width: 80%;
     margin: auto;
     border: 1px dashed;
-}
-
-section{
-    padding: 1rem 0rem;
 }
 
 .d-flex{
@@ -98,9 +105,6 @@ section{
 /* #endregion bg color */
 
 /* #region size */
-.h-100{
-    height: 100%;
-}
 
 .w-60{
     width: 60%;

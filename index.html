@@ -1,77 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Discord</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
-    
+
+<body id="debug">
+
+    <!-- Modificare: la classe debug va messa come ID del body e poi selezionare le altezze delle sezioni -->
+
     <!-- Header -->
     <header>
-
         <div class="container d-flex bg-orange p-1rem">
+
+            <!-- Logo -->
             <div>Logo</div>
+            <!-- Main menu -->
             <nav>
                 <a href="">link</a>
                 <a href="">link</a>
                 <a href="">link</a>
                 <a href="">link</a>
             </nav>
+            <!-- Login -->
             <div>
                 login
             </div>
-            
         </div>
     </header>
 
     <!-- Main -->
     <main>
+        
+        <!-- section 1 -->
+        <section class="bg-blue">
+            <div class="container bg-pink w-70 h-100"></div>
+        </section>
 
-        <div class="debug">
-            <!-- section 1 -->
-            <section class="bg-blue">
-                <div class="container bg-pink w-70 h-100"></div> 
-            </section>
-    
-            <!-- section 2 -->
-            <section>
-               <div class="container d-flex h-100">
+        <!-- section 2 -->
+        <section>
+            <div class="container d-flex h-100">
                 <div class="bg-lblue w-60 bordered-item"></div>
                 <div class="bg-salmon w-40 bordered-item"></div>
-                </div>
-            </section>
-    
-            <!-- section 3 -->
-            <section class="bg-gray">
-                <div class="container d-flex fd-rw h-100">
-                 <div class="bg-lblue w-60 bordered-item"></div>
-                 <div class="bg-salmon w-40 bordered-item"></div>
-             </div>
-            </section>
+            </div>
+        </section>
 
-            <!-- section 4 -->
-            <section>
-                <div class="container d-flex h-100">
-                 <div class="bg-lblue w-60 bordered-item"></div>
-                 <div class="bg-salmon w-40 bordered-item"></div>
-             </div>
-            </section>
+        <!-- section 3 -->
+        <section class="bg-gray">
+            <div class="container d-flex fd-rw h-100">
+                <div class="bg-lblue w-60 bordered-item"></div>
+                <div class="bg-salmon w-40 bordered-item"></div>
+            </div>
+        </section>
 
-            <!-- section 5 -->
-            <section class="bg-gray h-500">
-                <div class="container bg-green w-70 h-100"></div> 
-            </section>
-        </div>
+        <!-- section 4 -->
+        <section>
+            <div class="container d-flex h-100">
+                <div class="bg-lblue w-60 bordered-item"></div>
+                <div class="bg-salmon w-40 bordered-item"></div>
+            </div>
+        </section>
+
+        <!-- section 5 -->
+        <section class="bg-gray h-500">
+            <div class="container bg-green w-70 h-100"></div>
+        </section>
+
     </main>
 
     <!-- Footer -->
     <footer>
 
-        <div class="debug">
+        <div class="">
             <!-- section 1 -->
-            <section class="debug bg-black h-300">
+            <section class="bg-black h-300">
                 <div class="container d-flex h-100">
                     <div class="bg-orange w-40 bordered-item"></div>
                     <div class="bg-violet w-20 bordered-item"></div>
@@ -88,7 +93,7 @@
                 <div class="bordered-item p-1rem bg-orange">
                     Logo
                 </div>
-              
+
                 <div class="bordered-item p-1rem bg-orange">
                     Bottone
                 </div>
@@ -96,4 +101,5 @@
         </section>
     </footer>
 </body>
+
 </html>
